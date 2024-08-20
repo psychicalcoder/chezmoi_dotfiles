@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+test -x /usr/bin/onedrive
+
+while true; do
+    if nc -zw1 onedrive.com 443; then
+        /usr/bin/onedrive --synchronize --enable-logging --log-dir /home/marvin/.local/log/
+    fi
+    sleep 300
+done
