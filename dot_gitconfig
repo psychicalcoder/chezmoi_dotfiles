@@ -1,0 +1,9 @@
+[user]
+	name = psychicalcoder
+	email = psychicalcoder@gmail.com
+	signingkey = 2086CA05DF713499
+
+[includeIf "gitdir:~/cscc/"]
+        path = ~/cscc/.gitconfig_include
+[commit]
+	gpgsign = true

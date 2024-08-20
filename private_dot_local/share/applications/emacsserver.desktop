@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=Development;TextEditor;
+Comment[en_US]=Starts an Emacs server
+Comment=Starts an Emacs server
+Exec=env XMODIFIERS=@im=fcitx /usr/bin/emacs --daemon
+GenericName[en_US]=Emacs
+GenericName=Emacs
+Icon=emacs
+MimeType=text/x-tex;text/x-pascal;text/x-moc;text/x-makefile;text/x-java;text/x-csrc;text/x-csrc;text/x-chdr;text/x-c++src;text/x-c++hdr;text/tcl;text/plain;text/html;text/css;application/x-shellscript;
+Name[en_US]=Emacs Server
+Name=Emacs Server
+Path=
+StartupNotify=true
+StartupWMClass=Emacs
+Terminal=false
+TerminalOptions=
+TryExec=/usr/bin/emacs
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=
